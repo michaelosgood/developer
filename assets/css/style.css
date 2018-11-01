@@ -22,3 +22,18 @@ body {
     margin: 2em 3em;
     font-size: 16px;
 }
+
+h1 {
+    font-weight: 300;
+}
+
+.content {
+    margin: 8em 4em;
+    text-align: justify;
+}
+
+p {
+    color: #d3d3d3;
+    font-weight: 300;
+    font-size: 30px;
+}
