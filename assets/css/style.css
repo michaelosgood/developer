@@ -5,7 +5,7 @@ body {
 }
 
 #navbar {
-    background:	#6baac4;
+    background:#bababa;	
     position: fixed;
     top: 0;
     width: 100%;
@@ -17,12 +17,12 @@ body {
 
 #navbar a {
     display: inline-block;
-    color: #000000;
-    font-weight: 300;
+    color: #6baac4;
+    font-weight: 800;
     text-decoration: none;
     margin: auto;
     padding: 10px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h1 {
