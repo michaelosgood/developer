@@ -40,3 +40,8 @@ p {
     font-size: 30px;
     z-index: 2;
 }
+
+#car-wrap {
+    background-color: red;
+    padding: 3px;
+}
