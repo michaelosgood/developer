@@ -8,7 +8,6 @@ body {
     background:#bababa;	
     position: fixed;
     width: 100%;
-    padding: 1em;
     display: block;
     transition: top 1.0s;
     text-align: center;
