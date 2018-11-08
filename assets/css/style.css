@@ -54,6 +54,15 @@ h1 {
 #paragraph {
     display: inline-block;
     text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
+    border-top-color: #6baac4;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
 }
 
 p {
