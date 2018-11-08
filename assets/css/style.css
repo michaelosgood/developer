@@ -62,7 +62,9 @@ h1 {
     border-top-width: 3px;
     border-left-style: none;
     border-right-style: none;
-    border-bottom-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #6baac4;
 }
 
 p {
