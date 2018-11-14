@@ -266,16 +266,22 @@
                 <form method="POST" action="https://formspree.io/michael.f.osgood@gmail.com" id="contact_form" class="m-5">
                     <div class='form-group'>
                         <ul class='list-group'>
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <label for="name" class="col text-center"><h2>Name</h2></label>
+                            <li class="list-group-item d-flex">
+                                <label for="name" class="text-center"><h2>Name</h2></label>
+                            </li>
+                            <li>
                                 <input type="text" name="name" placeholder="Charles Darwin" class="col text-center">
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <label for="email" class="col text-center"><h2>Email</h2></label>
+                                <label for="email" class="text-center"><h2>Email</h2></label>
+                            </li>
+                            <li>
                                 <input type="email" name="email" placeholder="name@email.com" class="col text-center">
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <label for="message" class="col text-center"><h2>Message</h2></label>
+                                <label for="message" class="text-center"><h2>Message</h2></label>
+                            </li>
+                            <li>
                                 <textarea name="message" placeholder="Your message" class="col text-center"></textarea>
                             </li>
                         </ul>
@@ -287,6 +293,24 @@
             </div>
         </div>
     </div>
+                <!-- Updated Form -->
+    <div class='container'>
+        <div class='row'>
+            <div class='col'>
+                <form method="POST" action="https://formspree.io/michael.f.osgood@gmail.com" id="contact_form" class="m-5">
+                    <label for="basic-url">Your vanity URL</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                        </div>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+             
+    
 
   <script type='text/javascript' src="assets/javascript/app.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
