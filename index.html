@@ -26,7 +26,7 @@
                     <a href='#contact-1'>Contact</a>
                     <a href='https://www.instagram.com/kno_good' target='_blank'><i class='fab fa-instagram'></i></a>
                     <a href='https://www.linkedin.com/in/michaelfosgood/' target='_blank'><i class='fab fa-linkedin'></i></a>
-                    <a href='#'><i class='fab fa-github-square'></i></a>
+                    <a href='https://github.com/michaelosgood' target='_blank'><i class='fab fa-github-square'></i></a>
                     <a href='https://twitter.com/kno_good' target='_blank'><i class='fab fa-twitter-square'></i></a>
                 </nav>
             </div>
@@ -296,15 +296,35 @@
                 <!-- Updated Form -->
     <div class='container'>
         <div class='row'>
-            <div class='col'>
+            <div class='col-12' id='contact-3'>
                 <form method="POST" action="https://formspree.io/michael.f.osgood@gmail.com" id="contact_form" class="m-5">
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon3">Name</span>
+           
+        
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Charles Darwin">
                         </div>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                    </div>
+
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Message</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter message">
+                        </div>
+
+                        <button type="button" class="btn btn-custom">
+                            <p class="text-center"><i class="fas fa-paper-plane"></i> Send</p>
+                        </button>
+
+             
                 </form>
+
             </div>
         </div>
     </div>

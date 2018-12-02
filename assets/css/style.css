@@ -97,6 +97,12 @@ p {
 list-style-type: none;
 
 }
+
+#contact-3 {
+    color: #6baac4 !important;
+    height: 300px;
+}
+
 button {
     align-content: center;
 }
