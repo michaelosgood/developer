@@ -41,6 +41,20 @@ body {
     padding: 3px;
 }
 
+#map-wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
+    border-top-color: #6baac4;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #6baac4;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #6baac4 !important;
