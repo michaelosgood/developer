@@ -40,7 +40,17 @@ body {
     background-color:#6baac4;
     padding: 3px;
 }
+@media only screen and (max-width: 768px) {
+    #caro-wrap {
+        padding-top: 7%;
+    }
+  }
 
+  @media only screen and (max-width: 409px) {
+    #caro-wrap {
+        padding-top: 26%;
+    }
+  }
 #map-wrap {
     padding-top: 10px;
     padding-bottom: 10px;
