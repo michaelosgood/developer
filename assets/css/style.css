@@ -53,13 +53,14 @@ body {
 }
 @media only screen and (max-width: 768px) {
     #caro-wrap {
-        padding-top: 7%;
+        padding-top: 3px;
+        margin-top: 1px;
     }
   }
 
-  @media only screen and (max-width: 409px) {
+  @media only screen and (max-width: 438px) {
     #caro-wrap {
-        padding-top: 26%;
+        padding-top: 50px !important;
     }
   }
 #map-wrap {
