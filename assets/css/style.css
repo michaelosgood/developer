@@ -36,6 +36,15 @@ body {
     font-size: 24px;
 }
 
+@media only screen and (max-width: 768px) {
+    #navbar a:hover {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 20px;
+    }
+  }
+
 #caro-wrap {
     margin-top: 25px;
     background-color:#6baac4;
@@ -149,4 +158,19 @@ footer {
     border-right-style: none;
     border-bottom-style: none;
     border-top-style: solid;
+}
+footer a {
+    display: inline-block;
+    color: #6baac4;
+    font-weight: 700;
+    text-decoration: none;
+    margin: auto;
+    padding: 10px 5px;
+    font-size: 24px;
+}
+footer a:hover {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 24px;
 }
