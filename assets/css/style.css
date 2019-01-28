@@ -136,3 +136,17 @@ button {
 .btn p:hover {
     color: #6baac4;
 }
+footer {
+    background:#bababa;	
+    width: 100%;
+    display: block;
+    transition: top 1.0s;
+    text-align: center;
+    z-index: 1;
+    border-top-color: #6baac4;
+    border-top-width: 3px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-top-style: solid;
+}
