@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color:#ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif ;
 }
 
 #navbar {
@@ -12,7 +12,7 @@ body {
     transition: top 1.0s;
     text-align: center;
     z-index: 1;
-    border-bottom-color: #6baac4;
+    border-bottom-color: #333333;
     border-bottom-width: 3px;
     border-left-style: none;
     border-right-style: none;
@@ -48,7 +48,7 @@ body {
 
 #caro-wrap {
     margin-top: 25px;
-    background-color:#6baac4;
+    background-color:#333333;
     padding: 3px;
 }
 @media only screen and (max-width: 768px) {
@@ -67,14 +67,14 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
-    border-top-color: #6baac4;
+    border-top-color: #333333;
     border-top-style: solid;
     border-top-width: 3px;
     border-left-style: none;
     border-right-style: none;
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-bottom-color: #6baac4;
+    border-bottom-color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -88,14 +88,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
-    border-top-color: #6baac4;
+    border-top-color: #333333;
     border-top-style: solid;
     border-top-width: 3px;
     border-left-style: none;
     border-right-style: none;
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-bottom-color: #6baac4;
+    border-bottom-color:#333333;
 }
 
 p {
@@ -109,14 +109,14 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
     background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
-    border-top-color: #6baac4;
+    border-top-color: #333333;
     border-top-style: solid;
     border-top-width: 3px;
     border-left-style: none;
     border-right-style: none;
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-bottom-color: #6baac4;
+    border-bottom-color: #333333;
 }
 
 #contact-1 a  {
@@ -154,7 +154,7 @@ footer {
     transition: top 1.0s;
     text-align: center;
     z-index: 1;
-    border-top-color: #6baac4;
+    border-top-color: #333333;
     border-top-width: 3px;
     border-left-style: none;
     border-right-style: none;
