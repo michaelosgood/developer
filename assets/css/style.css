@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color:#ffffff;
-    font-family: Poppins;
+    font-family: 'Roboto', sans-serif;
 }
 
 #navbar {
@@ -21,7 +21,7 @@ body {
 }
 
 #navbar a {
-    color: #6baac4;
+    color: #333333;
     font-weight: 700;
     text-decoration: none;
     margin: auto;
@@ -79,7 +79,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
-    color: #6baac4 !important;
+    color: #333333 !important;
 }
 
 #paragraph {
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    color: #d3d3d3;
+    color: #333333;
     font-weight: 300;
     font-size: 30px;
     z-index: 2;
@@ -122,17 +122,17 @@ p {
 #contact-1 a  {
     font-size: 24px;
     font-weight: 700;
-    color: #6baac4 !important;
+    color: #333333 !important;
 }
 
 #contact-1 a:hover  {
     font-size: 24px;
     font-weight: 900;
-    color: #6baac4 !important;
+    color: #333333 !important;
 }
 
 #contact-2 {
-    color: #6baac4 !important;
+    color: #333333 !important;
 }
 
 button {
@@ -145,7 +145,7 @@ button {
     padding-top: 15px;
 }
 .btn p:hover {
-    color: #6baac4;
+    color: #333333;
 }
 footer {
     background:#bababa;	
@@ -163,7 +163,7 @@ footer {
 }
 footer a {
     display: inline-block;
-    color: #6baac4;
+    color: #333333;
     font-weight: 700;
     text-decoration: none;
     margin: auto;
@@ -172,7 +172,7 @@ footer a {
 }
 footer a:hover {
     display: inline-block;
-    color: #6baac4;
+    color: #333333;
     text-decoration: none;
     font-weight: 900;
     font-size: 24px;
