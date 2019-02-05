@@ -46,23 +46,6 @@ body {
     }
   }
 
-#caro-wrap {
-    margin-top: 25px;
-    background-color:#333333;
-    padding: 3px;
-}
-@media only screen and (max-width: 768px) {
-    #caro-wrap {
-        padding-top: 3px;
-        margin-top: 1px;
-    }
-  }
-
-  @media only screen and (max-width: 438px) {
-    #caro-wrap {
-        padding-top: 50px !important;
-    }
-  }
 #map-wrap {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -131,9 +114,6 @@ p {
     color: #333333 !important;
 }
 
-#contact-2 {
-    color: #333333 !important;
-}
 
 button {
     align-content: center;
