@@ -5,14 +5,14 @@ body {
 }
 
 #navbar {
-    background:#bababa;	
+    background:#0288d1;	
     position: fixed;
     width: 100%;
     display: block;
     transition: top 1.0s;
     text-align: center;
     z-index: 1;
-    border-bottom-color: #333333;
+    border-bottom-color: #FFD700;
     border-bottom-width: 3px;
     border-left-style: none;
     border-right-style: none;
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #paragraph {
     display: inline-block;
-    text-align: justify;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
@@ -102,9 +102,9 @@ p {
     border-bottom-color: #333333;
 }
 
-.portfolio {
-    background: #808080;
-}
+/* .portfolio {
+    background: #0288d1;
+} */
 
 #contact-1 a  {
     font-size: 24px;
@@ -132,13 +132,13 @@ button {
     color: #333333;
 }
 footer {
-    background:#bababa;	
+    background:#0288d1;
     width: 100%;
     display: block;
     transition: top 1.0s;
     text-align: center;
     z-index: 1;
-    border-top-color: #333333;
+    border-top-color: #FFD700;
     border-top-width: 3px;
     border-left-style: none;
     border-right-style: none;
