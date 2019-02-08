@@ -21,7 +21,7 @@ body {
 }
 
 #navbar a {
-    color: #333333;
+    color: #aaaaaa;
     font-weight: 700;
     text-decoration: none;
     margin: auto;
@@ -147,7 +147,7 @@ footer {
 }
 footer a {
     display: inline-block;
-    color: #333333;
+    color: #aaaaaa;
     font-weight: 700;
     text-decoration: none;
     margin: auto;
