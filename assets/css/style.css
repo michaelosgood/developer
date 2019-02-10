@@ -52,10 +52,10 @@ body {
     overflow: hidden;
     background:#212121;	
     position: fixed;
-    width: 100%;
     display: block;
-    transition: top 1.0s;
-    text-align: center;
+    transition: top 1.5s;
+    /* text-align: center; */
+    width: 100%;
   }
   
   .navbar a {
