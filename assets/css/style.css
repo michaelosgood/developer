@@ -5,14 +5,14 @@ body {
 }
 
 #navbar {
-  background:#0288d1;	
+  background:#333333;	
   position: fixed;
   width: 100%;
   display: block;
   transition: top 1.0s;
   text-align: center;
   z-index: 1;
-  border-bottom-color: #FFD700;
+  border-bottom-color: #C8C3C5;
   border-bottom-width: 3px;
   border-left-style: none;
   border-right-style: none;
@@ -21,8 +21,7 @@ body {
 }
 
 #navbar a {
-  color: #aaaaaa;
-  font-weight: 700;
+  color: #ffffff;
   text-decoration: none;
   margin: auto;
   padding: 10px 5px;
@@ -132,13 +131,13 @@ button {
   color: #333333;
 }
 footer {
-  background:#0288d1;
+  background:#333333;
   width: 100%;
   display: block;
   transition: top 1.0s;
   text-align: center;
   z-index: 1;
-  border-top-color: #FFD700;
+  border-top-color: #C8C3C5;
   border-top-width: 3px;
   border-left-style: none;
   border-right-style: none;
@@ -147,17 +146,15 @@ footer {
 }
 footer a {
   display: inline-block;
-  color: #aaaaaa;
-  font-weight: 700;
+  color: #ffffff;
   text-decoration: none;
   margin: auto;
   padding: 10px 5px;
   font-size: 24px;
 }
 footer a:hover {
+  color: #ffffff;
   display: inline-block;
-  color: #333333;
   text-decoration: none;
-  font-weight: 900;
   font-size: 24px;
 }
