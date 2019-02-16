@@ -48,7 +48,7 @@ body {
   }
 }
 
-#map-wrap {
+.project-wrap {
   padding-top: 10px;
   padding-bottom: 10px;
   background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
@@ -60,6 +60,9 @@ body {
   border-bottom-style: solid;
   border-bottom-width: 3px;
   border-bottom-color: #333333;
+}
+#overview-link {
+  margin-top: 100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -84,6 +87,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   h6 {
     font-size: 8px !important;
+  }
+  .contact-me {
+    font-size: 24px !important;
   }
 }
 
@@ -111,7 +117,7 @@ p {
 
 @media only screen and (max-width: 768px) {
     p {
-        font-size: 20px;
+        font-size: 18px;
     }
   }
 
@@ -128,10 +134,6 @@ p {
   border-bottom-width: 3px;
   border-bottom-color: #333333;
 }
-
-/* .portfolio {
-  background: #0288d1;
-} */
 
 #contact a  {
   font-size: 24px;
