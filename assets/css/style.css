@@ -61,9 +61,6 @@ body {
   border-bottom-width: 3px;
   border-bottom-color: #333333;
 }
-#overview-link {
-  margin-top: 100px;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif ;
