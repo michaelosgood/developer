@@ -47,6 +47,9 @@ body {
       font-weight: 900;
   }
 }
+#spacer {
+  height: 100px;
+}
 
 .project-wrap {
   padding-top: 10px;
