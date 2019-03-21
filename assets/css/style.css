@@ -30,9 +30,9 @@ body {
 }
 @media only screen and (max-width: 768px) {
   #navbar a {
-      font-weight: 600;
-      font-size: 18px;
-      font-family: 'Roboto', sans-serif ;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif ;
   }
 }
 #navbar a:hover {
@@ -44,7 +44,7 @@ body {
 
 @media only screen and (max-width: 768px) {
   #navbar a:hover {
-      font-weight: 900;
+    font-weight: 900;
   }
 }
 #spacer {
@@ -66,7 +66,7 @@ body {
 }
 
 .collapsible {
-  background-color: #777;
+  background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -142,10 +142,10 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-    p {
-        font-size: 18px;
-    }
+  p {
+      font-size: 18px;
   }
+}
 
 #contact {
   padding-top: 10px;
@@ -183,9 +183,11 @@ button {
   font-size: 20px;
   padding-top: 15px;
 }
+
 .btn p:hover {
   color: #333333;
 }
+
 footer {
   background:#333333;
   width: 100%;
@@ -200,6 +202,7 @@ footer {
   border-bottom-style: none;
   border-top-style: solid;
 }
+
 footer a {
   display: inline-block;
   color: #ffffff;
@@ -208,6 +211,7 @@ footer a {
   padding: 10px 5px;
   font-size: 24px;
 }
+
 footer a:hover {
   color: #ffffff;
   display: inline-block;
