@@ -52,6 +52,7 @@ body {
 }
 p {
   text-indent: 50px;
+  color: #ffffff;
 }
 
 .project-wrap {
@@ -70,7 +71,7 @@ p {
 
 .collapsible {
   background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
-  color: white;
+  color: #ffffff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -88,12 +89,12 @@ p {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label {
   font-family: 'Roboto', sans-serif ;
-  color: #333333 !important;
+  color: #ffffff !important;
 }
 @media only screen and (max-width: 768px) {
   h1 {
@@ -122,26 +123,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#paragraph {
-  display: inline-block;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
-  border-top-color: #333333;
-  border-top-style: solid;
-  border-top-width: 3px;
-  border-left-style: none;
-  border-right-style: none;
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-color:#333333;
-}
-
 p {
-  color: #333333;
+  color: #ffffff;
   font-weight: inherit;
-  font-size: 26px;
+  font-size: 20px;
+  justify-self: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -167,13 +153,13 @@ p {
 #contact a  {
   font-size: 24px;
   font-weight: 700;
-  color: #333333 !important;
+  color: #ffffff;
 }
 
 #contact a:hover  {
   font-size: 24px;
   font-weight: 900;
-  color: #333333 !important;
+  color: #ffffff;
 }
 
 
@@ -188,7 +174,7 @@ button {
 }
 
 .btn p:hover {
-  color: #333333;
+  color: #ffffff;
 }
 
 footer {
