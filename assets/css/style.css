@@ -50,10 +50,7 @@ body {
 #spacer {
   height: 100px;
 }
-p {
-  text-indent: 50px;
-  color: #ffffff;
-}
+
 
 .project-wrap {
   padding-top: 10px;
@@ -128,12 +125,21 @@ p {
   font-weight: inherit;
   font-size: 20px;
   justify-self: center;
+  text-indent: 50px;
 }
-
 @media only screen and (max-width: 768px) {
   p {
       font-size: 18px;
   }
+}
+
+p a {
+  color: #E8E8E8;
+}
+
+p a:hover {
+  color: #F5F5F5;
+  font-weight: bold;
 }
 
 #contact {
