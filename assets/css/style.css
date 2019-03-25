@@ -135,11 +135,11 @@ p {
 
 p a {
   color: #E8E8E8;
+  font-style: italic;
 }
 
 p a:hover {
   color: #F5F5F5;
-  font-weight: bold;
 }
 
 #contact {
