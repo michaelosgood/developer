@@ -66,20 +66,8 @@ body {
   border-bottom-color: #333333;
 }
 
-.collapsible {
-  background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
-  color: #ffffff;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
+a img:hover {
+  opacity: 0.5;
 }
 
 .content {
