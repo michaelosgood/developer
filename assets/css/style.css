@@ -51,6 +51,14 @@ body {
   height: 100px;
 }
 
+#profile-image {
+  max-width: 30%;
+}
+@media only screen and (max-width: 768px) {
+  #profile-image {
+    max-width: 50%;
+  }
+}
 
 .project-wrap {
   padding-top: 10px;
@@ -77,7 +85,7 @@ a img:hover {
   color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6, label {
+h1, h2, h3, h4, h5, h6, label, li {
   font-family: 'Roboto', sans-serif ;
   color: #ffffff !important;
 }
@@ -113,7 +121,7 @@ p {
   font-weight: inherit;
   font-size: 20px;
   justify-self: center;
-  text-indent: 50px;
+  /* text-indent: 50px; */
 }
 @media only screen and (max-width: 768px) {
   p {
@@ -178,6 +186,7 @@ footer {
   transition: top 1.0s;
   text-align: center;
   z-index: 1;
+  padding-bottom: 5px;
   border-top-color: #C8C3C5;
   border-top-width: 3px;
   border-left-style: none;
