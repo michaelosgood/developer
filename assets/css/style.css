@@ -69,14 +69,14 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   background: #31708E;
-  border-top-color: #333333;
+  border-top-color:#D3D3D3;
   border-top-style: solid;
   border-top-width: 3px;
   border-left-style: none;
   border-right-style: none;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  border-bottom-color: #333333;
+  border-bottom-color: #D3D3D3;
   text-align: justify;
 }
 
@@ -136,12 +136,12 @@ p {
 }
 
 p a {
-  color: #E8E8E8;
+  color: #86B3D1;
   font-style: italic;
 }
 
 p a:hover {
-  color: #F5F5F5;
+  color: #86B3C1;
 }
 
 #contact {
