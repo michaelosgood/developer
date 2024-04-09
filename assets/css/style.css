@@ -91,6 +91,10 @@ a img:hover {
   color: #F7F9FB;
 }
 
+.container {
+  border-radius: 10px;
+}
+
 h1, h2, h3, h4, h5, h6, label, li {
   font-family: 'Roboto', sans-serif ;
   color: #F7F9FB !important;
