@@ -1,23 +1,29 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
-  /* background-color:#ffffff; */
-  background-color:#F7F9FB;
-  font-family: 'Roboto', sans-serif;
+  background-color: #000505;
+  background: #000505 !important;
+  font-family: "Lato", sans-serif !important;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #navbar {
-  /* background:#333333;	 */
-  background:#5085A5;	
+  background: #000505;
   position: fixed;
   width: 100%;
   display: block;
   transition: top 1.0s;
   text-align: center;
   z-index: 1;
-  border-bottom-color: #C8C3C5;
+  border-bottom-color: #ffffff;
   border-bottom-width: 3px;
   border-left-style: none;
   border-right-style: none;
@@ -31,20 +37,17 @@ body {
   margin: auto;
   padding: 10px 5px;
   font-size: 24px;
-  font-family: 'Roboto', sans-serif ;
 }
 @media only screen and (max-width: 768px) {
   #navbar a {
     font-weight: 600;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif ;
   }
 }
 #navbar a:hover {
   text-decoration: none;
   font-weight: 900;
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif ;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -68,12 +71,12 @@ body {
 .project-wrap {
   padding-top: 10px;
   padding-bottom: 10px;
-  background: #31708E;
+  background: #000505;
   border-top-color:#D3D3D3;
   border-top-style: solid;
   border-top-width: 3px;
-  border-left-style: none;
-  border-right-style: none;
+  border-left-style: solid;
+  border-right-style: solid;
   border-bottom-style: solid;
   border-bottom-width: 3px;
   border-bottom-color: #D3D3D3;
@@ -96,7 +99,6 @@ a img:hover {
 }
 
 h1, h2, h3, h4, h5, h6, label, li {
-  font-family: 'Roboto', sans-serif ;
   color: #F7F9FB !important;
 }
 @media only screen and (max-width: 768px) {
@@ -131,7 +133,6 @@ p {
   font-weight: inherit;
   font-size: 20px;
   justify-self: center;
-  /* text-indent: 50px; */
 }
 @media only screen and (max-width: 768px) {
   p {
@@ -140,26 +141,26 @@ p {
 }
 
 p a {
-  color: #86B3D1;
+  color: #b5b4b4;
   font-style: italic;
 }
 
 p a:hover {
-  color: #86B3C1;
+  color: #F7F9FB;
 }
 
 #contact {
   padding-top: 10px;
   padding-bottom: 10px;
-  background: #8FC1E3;
-  border-top-color: #333333;
+  background: #000505;
+  border-top-color: #F7F9FB;
   border-top-style: solid;
   border-top-width: 3px;
   border-left-style: none;
   border-right-style: none;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  border-bottom-color: #333333;
+  border-bottom-color: #F7F9FB;
 }
 
 #contact a  {
@@ -190,8 +191,7 @@ button {
 }
 
 footer {
-  /* background:#333333; */
-  background:#687864;
+  background: #000505;
   width: 100%;
   display: block;
   transition: top 1.0s;
