@@ -1,18 +1,17 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   background-color: #000505;
   background: #000505 !important;
-  /* font-family: 'Roboto', sans-serif; */
-  /* font-family: "Luckiest Guy", cursive !important; */
-  font-family: "Shadows Into Light", cursive !important;
+  font-family: "Lato", sans-serif !important;
 }
 
-.shadows-into-light-regular {
-  font-family: "Shadows Into Light", cursive;
-  font-weight: 400;
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -38,21 +37,17 @@ body {
   margin: auto;
   padding: 10px 5px;
   font-size: 24px;
-  /* font-family: 'Roboto', sans-serif ; */
-  /* font-family: "Luckiest Guy", cursive !important; */
 }
 @media only screen and (max-width: 768px) {
   #navbar a {
     font-weight: 600;
     font-size: 18px;
-    /* font-family: 'Roboto', sans-serif ; */
   }
 }
 #navbar a:hover {
   text-decoration: none;
   font-weight: 900;
   font-size: 25px;
-  /* font-family: 'Roboto', sans-serif ; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -104,7 +99,6 @@ a img:hover {
 }
 
 h1, h2, h3, h4, h5, h6, label, li {
-  /* font-family: 'Roboto', sans-serif ; */
   color: #F7F9FB !important;
 }
 @media only screen and (max-width: 768px) {
@@ -147,7 +141,7 @@ p {
 }
 
 p a {
-  color: #848484;
+  color: #b5b4b4;
   font-style: italic;
 }
 
@@ -159,14 +153,14 @@ p a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   background: #000505;
-  border-top-color: #333333;
+  border-top-color: #F7F9FB;
   border-top-style: solid;
   border-top-width: 3px;
   border-left-style: none;
   border-right-style: none;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  border-bottom-color: #333333;
+  border-bottom-color: #F7F9FB;
 }
 
 #contact a  {
